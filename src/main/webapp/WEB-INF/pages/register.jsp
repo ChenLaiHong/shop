@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-	<head lang="en">
-		<meta charset="UTF-8">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>注册</title>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="renderer" content="webkit">
-		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<%
+		pageContext.setAttribute("PATH",request.getContextPath());
+		%>
 
-		<link rel="stylesheet" href="../AmazeUI-2.4.2/assets/css/amazeui.min.css" />
-		<link href="../css/dlstyle.css" rel="stylesheet" type="text/css">
-		<script src="../AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
-		<script src="../AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+		<link rel="stylesheet" href="${PATH}/css/amazeui.css/amazeui.min.css" />
+		<link href="${PATH}/css/dlstyle.css" rel="stylesheet" type="text/css">
+		<script src="${PATH}/js/jquery.min.js"></script>
+		<script src="${PATH}/js/amazeui.min.js"></script>
 
 	</head>
 
 	<body>
 
 		<div class="login-boxtitle">
-			<a href="home/demo.html"><img alt="" src="../images/logobig.png" /></a>
+			<a href="home/demo.html"><img alt="" src="${PATH}/images/logobig.png" /></a>
 		</div>
 
 		<div class="res-banner">
 			<div class="res-main">
-				<div class="login-banner-bg"><span></span><img src="../images/big.jpg" /></div>
+				<div class="login-banner-bg"><span></span><img src="${PATH}/images/big.jpg" /></div>
 				<div class="login-box">
 
 						<div class="am-tabs" id="doc-my-tabs">
@@ -44,18 +42,18 @@
                  </div>										
                  <div class="user-pass">
 								    <label for="password"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="password" placeholder="设置密码">
+								    <input type="password" name="" placeholder="设置密码">
                  </div>										
                  <div class="user-pass">
 								    <label for="passwordRepeat"><i class="am-icon-lock"></i></label>
-								    <input type="password" name="" id="passwordRepeat" placeholder="确认密码">
+								    <input type="password" name=""  placeholder="确认密码">
                  </div>	
                  
                  </form>
                  
 								 <div class="login-links">
 										<label for="reader-me">
-											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+											<input  type="checkbox"> 点击表示您同意商城《服务协议》
 										</label>
 							  	</div>
 										<div class="am-cf">
@@ -131,6 +129,7 @@
 							</p>
 						</div>
 					</div>
+		</div>
 	</body>
 
 </html>

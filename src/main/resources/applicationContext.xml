@@ -57,10 +57,10 @@
 
 	<!-- Action的配置 ===========================-->
 
-	<!-- 首页访问的Action -->
-	<!--&lt;!&ndash;<bean id="indexAction" class="cn.itcast.shop.index.action.IndexAction" scope="prototype">&ndash;&gt;-->
-	<!---->
-	<!--</bean>-->
+	 <!--首页访问的Action-->
+	<bean id="indexAction" class="com.shop.index.action.IndexAction" scope="prototype">
+
+	</bean>
 
 	<!--&lt;!&ndash; 配置验证码Action &ndash;&gt;-->
 	<!--<bean id="checkImgAction" class="cn.itcast.shop.user.action.CheckImgAction" scope="prototype">-->

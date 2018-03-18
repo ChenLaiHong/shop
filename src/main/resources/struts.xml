@@ -5,4 +5,9 @@
 
 <struts>
     <constant name="struts.devMode" value="false"/>
+    <package name="shop" extends="struts-default" namespace="/">
+        <action name="index" class="indexAction">
+            <result name="index">/WEB-INF/pages/index.jsp</result>
+        </action>
+    </package>
 </struts>
