@@ -1,15 +1,12 @@
 ﻿
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1${PATH}0 Transitional//EN" "http://www${PATH}w3${PATH}org/TR/xhtml1/DTD/xhtml1-transitional${PATH}dtd">
-<html xmlns="http://www${PATH}w3${PATH}org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>在线商城</title>
-	<%
-		pageContext.setAttribute("PATH",request.getContextPath());
-	%>
-<link href="${PATH}/css/slider.css" rel="stylesheet" type="text/css"/>
-<link href="${PATH}/css/common.css" rel="stylesheet" type="text/css"/>
-<link href="${PATH}/css/index.css" rel="stylesheet" type="text/css"/>
+	
+<link href="${pageContext.request.contextPath}/static/css/slider.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/static/css/common.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/static/css/index.css" rel="stylesheet" type="text/css"/>
 
 </head>
 <body>
@@ -17,20 +14,20 @@
 <div class="container header">
 	<div class="span5">
 		<div class="logo">
-			<a href="${PATH}/index.jsp">
-				<img src="${PATH}/images/logobig.png" alt="悦桔拉拉"/>
+			<a href="${pageContext.request.contextPath}/index.jsp">
+				<img src="${pageContext.request.contextPath}/static/images/logobig.png" alt="悦桔拉拉"/>
 			</a>
 		</div>
 	</div>
 	<div class="span9">
 <div class="headerAd">
-	<img src="${PATH}/image/header.jpg" width="320" height="50" alt="正品保障" title="正品保障"/>
+	<img src="${pageContext.request.contextPath}/static/image/header.jpg" width="320" height="50" alt="正品保障" title="正品保障"/>
 </div>	</div>
 	<div class="span10 last">
 		<div class="topNav clearfix">
 			<ul>
 				<li id="headerLogin" class="headerLogin" style="display: list-item;">
-					<a href="${PATH}/会员登录.htm">登录</a>|
+					<a href="${pageContext.request.contextPath}/会员登录.htm">登录</a>|
 				</li>
 				<li id="headerRegister" class="headerRegister" style="display: list-item;">
 					<a href="./会员注册.htm">注册</a>|
