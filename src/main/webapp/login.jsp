@@ -5,28 +5,26 @@
 	<head lang="en">
 		<meta charset="UTF-8">
 		<title>登录</title>
-		<%
-			pageContext.setAttribute("PATH",request.getContextPath());
-		%>
+		
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta name="format-detection" content="telephone=no">
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="Cache-Control" content="no-siteapp" />
 
-		<link rel="stylesheet" href="${PATH}/static/css/amazeui.css" />
-		<link href="${PATH}/static/css/dlstyle.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/amazeui.css" />
+		<link href="${pageContext.request.contextPath}/static/css/dlstyle.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
 
 		<div class="login-boxtitle">
-			<a href="home.html"><img alt="logo" src="${PATH}/static/images/logobig.png" /></a>
+			<a href="home.html"><img alt="logo" src="${pageContext.request.contextPath}/static/images/logobig.png" /></a>
 		</div>
 
 		<div class="login-banner">
 			<div class="login-main">
-				<div class="login-banner-bg"><span></span><img src="${PATH}/static/images/big.jpg" /></div>
+				<div class="login-banner-bg"><span></span><img src="${pageContext.request.contextPath}/static/images/big.jpg" /></div>
 				<div class="login-box">
 
 							<h3 class="title">登录商城</h3>
