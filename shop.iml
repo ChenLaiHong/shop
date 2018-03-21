@@ -14,6 +14,7 @@
         <configuration>
           <fileset id="s2fileset" name="My Fileset " removed="false">
             <file>file://$MODULE_DIR$/src/main/resources/struts.xml</file>
+            <file>jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/struts2-core-2.3.15.3.jar!/struts-default.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>
@@ -27,7 +28,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -37,20 +38,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jsp-api" level="project" />
-    <orderEntry type="library" name="servlet-api" level="project" />
     <orderEntry type="library" name="hibernate3" level="project" />
     <orderEntry type="library" name="spring-jdbc-3.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="spring-orm-3.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="xwork-core-2.3.15.3" level="project" />
     <orderEntry type="library" name="freemarker-2.3.19" level="project" />
     <orderEntry type="library" name="struts2-core-2.3.15.3" level="project" />
+    <orderEntry type="library" name="activation" level="project" />
+    <orderEntry type="library" name="hibernate-jpa-2.0-api-1.0.1.Final" level="project" />
+    <orderEntry type="library" name="struts2-spring-plugin-2.3.15.3" level="project" />
+    <orderEntry type="library" name="servlet-api" level="project" />
+    <orderEntry type="library" name="jsp-api" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.38" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:c3p0:0.9.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.mchange:mchange-commons-java:0.2.3.4" level="project" />
-    <orderEntry type="library" name="activation" level="project" />
-    <orderEntry type="library" name="hibernate-jpa-2.0-api-1.0.1.Final" level="project" />
-    <orderEntry type="library" name="struts2-spring-plugin-2.3.15.3" level="project" />
   </component>
 </module>

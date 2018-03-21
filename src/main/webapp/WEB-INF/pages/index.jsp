@@ -4,9 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>在线商城</title>
 	
-<link href="${pageContext.request.contextPath}/static/css/slider.css" rel="stylesheet" type="text/css"/>
-<link href="${pageContext.request.contextPath}/static/css/common.css" rel="stylesheet" type="text/css"/>
-<link href="${pageContext.request.contextPath}/static/css/index.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/css/slider.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/css/common.css" rel="stylesheet" type="text/css"/>
+<link href="${pageContext.request.contextPath}/css/index.css" rel="stylesheet" type="text/css"/>
 
 </head>
 <body>
@@ -15,13 +15,13 @@
 	<div class="span5">
 		<div class="logo">
 			<a href="${pageContext.request.contextPath}/index.jsp">
-				<img src="${pageContext.request.contextPath}/static/images/logobig.png" alt="悦桔拉拉"/>
+				<img src="${pageContext.request.contextPath}/images/logoBig.png" alt="悦桔拉拉"/>
 			</a>
 		</div>
 	</div>
 	<div class="span9">
 <div class="headerAd">
-	<img src="${pageContext.request.contextPath}/static/image/header.jpg" width="320" height="50" alt="正品保障" title="正品保障"/>
+	<img src="${pageContext.request.contextPath}/image/header.jpg" width="320" height="50" alt="正品保障" title="正品保障"/>
 </div>	</div>
 	<div class="span10 last">
 		<div class="topNav clearfix">
